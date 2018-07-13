@@ -144,6 +144,4 @@ React 中第三项技术就是组件的概念。
 
 在[下一篇文章](https://learnreact.design/2017/06/20/what-is-react-native/)中，我们将介绍 ReactJS、React Native 和 React Sketch.app 之间的关联和区别。
 
-I encourage you to go back to the [Learning Goals]() to see if you can answer all the questions. Let me know if you have any questions or comments!
-
 我鼓励你回到[学习目标](#学习目标)那里，去试试自己是否能够回答出全部问题。如果你有任何问题或意见，请给我留言!
