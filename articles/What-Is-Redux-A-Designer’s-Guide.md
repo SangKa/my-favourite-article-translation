@@ -74,7 +74,7 @@
 
 #### 获取并存储数据
 
-在 React 中，我们将 UI 拆分成组件。每个组件又可以拆分成更小的组件。(参见 [“图解 React”](https://learnreact.design/2017/06/08/what-is-react?utm_source=smashing_magzine&utm_campaign=redux&utm_content=middle))
+在 React 中，我们将 UI 拆分成组件。每个组件又可以拆分成更小的组件。(参见 [“图解 React”](./What-Is-React.md))
 
 ![redux-dribbble-components](../assets/What-Is-Redux-A-Designer’s-Guide/redux-dribbble-components.gif)
 
