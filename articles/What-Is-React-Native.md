@@ -6,11 +6,11 @@
 
 系列博客: 用通俗的语言和涂鸦来解释 React 术语
 
-  [图解 React](./What-Is-React.md)
-  图解 React Native (本文)
-  [组件、Props 和 State](https://learnreact.design/2017/08/16/components-props-and-state) (待翻译)
-  [Props 和 State 深入理解](https://learnreact.design/2018/01/15/props-and-state-re-explained) (待翻译)
-  [React Native vs. Cordova、PhoneGap、Ionic，等等](https://learnreact.design/2018/02/14/react-native-vs-cordova-phone-gap-ionic-etc) (待翻译)
+  * [图解 React](./What-Is-React.md)
+  * 图解 React Native (本文)
+  * [组件、Props 和 State](https://learnreact.design/2017/08/16/components-props-and-state) (待翻译)
+  * [Props 和 State 深入理解](https://learnreact.design/2018/01/15/props-and-state-re-explained) (待翻译)
+  * [React Native vs. Cordova、PhoneGap、Ionic，等等](https://learnreact.design/2018/02/14/react-native-vs-cordova-phone-gap-ionic-etc) (待翻译)
 
 在[上一篇文章](./What-Is-React.md)中，我们介绍了什么是 React 以及是什么使得它如此特别。今天我们将介绍 React Native: 它是做什么的？它出自何处？它和 React 有哪些不同之处？以及何为它如此令人振奋。
 
@@ -19,7 +19,7 @@
 当你读完本文后希望你能重新回到这里，并能够轻松出回答一下问题:
 
   * 什么是 React Native ？为什么它的名字中有 “Native” 字样？
-  * 为什么 React Native 如此之酷？
+  * 为什么 React Native 如此之酷？f
   * 我们可以使用 React Native 来开发什么？用 React 来开发不行吗？
   * 为什么会出现 ReactDOM ？它是做什么的？
   * React 渲染器 ( renderer )是用来做什么的？
@@ -143,7 +143,7 @@ React Native 的组成
   1. 在手机上下载 Expo 应用。你可以点击这里下载: [IOS](https://itunes.apple.com/app/apple-store/id982107779?mt=8)、[安卓](https://play.google.com/store/apps/details?id=host.exp.exponent)，或者在 App Store 中搜索 “Expo” 。
   1. 在电脑上打开网页: [https://snack.expo.io/](https://snack.expo.io/) 。
   1. 在手机上启动 Expo 应用并点击 “Scan QR Code” 。
-  1. 扫描电脑上显示的二维码。如果一些正常，你应该可以看见一条绿色的信息 “Device connected” 。
+  1. 扫描电脑上显示的二维码。如果一些正常，你应该可以看见一条绿色的信息 “Device connected” 。
   1. 如果二维码无法自动消失的话，可以点击页面右上角的小叉关闭。关闭后应该可以看见代码编辑器。
   1. 删除编辑器中的所有代码，然后将[此代码](https://gist.githubusercontent.com/lintonye/5cb3c11349591bf475b91573682fe688/raw/4ea0d4562ce45c1ba3867a1759359e1f86bb590a/domohat.jsx)黏贴进去。
   1. 你在手机上看到了什么？
