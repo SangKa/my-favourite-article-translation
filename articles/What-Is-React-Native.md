@@ -19,8 +19,8 @@
 当你读完本文后希望你能重新回到这里，并能够轻松出回答一下问题:
 
   * 什么是 React Native ？为什么它的名字中有 “Native” 字样？
-  * 为什么 React Native 如此之酷？f
-  * 我们可以使用 React Native 来开发什么？用 React 来开发不行吗？
+  * 为什么 React Native 如此之酷？
+  * 我们可以分别使用 React Native 和 React 来开发什么？
   * 为什么会出现 ReactDOM ？它是做什么的？
   * React 渲染器 ( renderer )是用来做什么的？
   * React Sketch.app 工作原理是什么？
@@ -35,9 +35,9 @@
 
 你也知道，React 是在 Web 上开发用户界面的利器。使用 React 来开发 UI 的话，就能够描述你想要什么，而不是告诉 UI 如何更新 (响应式 UI)，还可以在可重用组件中组织代码，并创建高性能用户界面而无需担心速度超慢的 DOM (虚拟 DOM)。越来越多的开发者选择 React 是因为它可以使得开发者更专注于上层业务，而不是底层 DOM 更新的细节。我们将这种开发 UI 的方式称之为 React 范式。范例基本上就是你思考一个问题的方式以及你如何描述它和它的解决方案。
 
-对于 Web 应用来说这无疑很棒。那对于其他平台呢，比如 IOS 和 安卓？如果能将 React 范式应用于原生应用的开发，岂不是很棒？
+对于 Web 应用来说这无疑很棒。那对于其他平台呢，比如 iOS 和 安卓？如果能将 React 范式应用于原生应用的开发，岂不是很棒？
 
-在某种程度上来说，移动端的工作方式与 Web 端是相同的。比方说，有一个模特(树人)，还有一个根据模特来创建视觉元素的艺术家。没什么可惊讶的，构建原生应用 UI 的传统方式就是直接操纵树人并告诉他如何更新(直接跟树人交谈)。这与在 Web 浏览器中直接操纵 DOM 有类似的缺点。React 绝对有助于解决此类问题。
+在某种程度上来说，移动端的工作方式与 Web 端是相同的。比方说，有一个模特(树人)，还有一个根据模特来创建视觉元素的艺术家。没什么可惊讶的，构建原生应用 UI 的传统方式就是直接操纵树人并告诉他如何更新(直接跟树人交谈)。这与在 Web 浏览器中直接操纵 DOM 有类似的缺点。React 绝对有助于解决此类问题。
 
 除了相似之处外，移动端还有与 Web 端不同的地方，不同系统之间都是完全不同的。在过去，要开发原生应用的话，开发者需要学习特定的语言和平台工具链。
 
@@ -45,7 +45,7 @@
 
 ![ios-android](../assets/What-Is-React-Native/ios-android.png)
 
-所以，如果你想要开发出的原生应用运行在 IOS 和安卓两个平台上的话，你需要创建两套完全分离的代码库。同样的业务逻辑需要写两遍。开发应用既困难，成本又高，从长远来看的话维护更是如此。
+所以，如果你想要开发出的原生应用运行在 iOS 和安卓两个平台上的话，你需要创建两套完全分离的代码库。同样的业务逻辑需要写两遍。开发应用既困难，成本又高，从长远来看的话维护更是如此。
 
 这正是 React Native 诞生的原因。我们来一起看看它是如何将开发过程大大简化的。
 
@@ -61,7 +61,7 @@
 
 为了解决此问题，React 创建者们将原来的 React 拆分成两部分。第一部分是全新的 React ，它只负责启用 React 范式。第二部分叫做 ReactDOM ，它唯一的任务就是与浏览器中的 DOM 进行交互。因为 ReactDOM 负责更新 DOM ，而 DOM 又决定了浏览器渲染的内容，所以我们将 ReactDOM 称之为渲染器。
 
-回到正题，想象下我们的超级英雄脱下了他的斗篷并在上面洒下了一些魔法之尘。
+想象一下，我们的超级英雄脱下了他的斗篷并在上面洒下了一些魔法之尘。
 
 ![cloak-and-dust](../assets/What-Is-React-Native/cloak-and-dust.png)
 
@@ -69,7 +69,7 @@
 
 ![reactdom-domo](../assets/What-Is-React-Native/reactdom-domo.png)
 
-这种角色分离的概念非常之强大。现在只需要维护一个共享的核心库，同时编写全新的渲染器来适应新平台，这种方式要比之前简单多了。由于有了 IOS 和安卓渲染器的强力支撑，现在你可以**使用一种语言和 React 范式**来为两个平台开发应用。
+这种角色分离的概念非常之强大。现在只需要维护一个共享的核心库，同时编写全新的渲染器来适应新平台，这种方式要比之前简单多了。由于有了 iOS 和安卓渲染器的强力支撑，现在你可以**使用一种语言和 React 范式**来为两个平台开发应用。
 
 ![renderers](../assets/What-Is-React-Native/renderers.png)
 
@@ -85,18 +85,18 @@ React 的官网定义是: 用来开发用户界面的 JavaScript 库。它的含
 
 “Web Browser” 工作室的实际景象要你比之前所见到的忙碌得多。
 
-这在 Web 开发环境下还好，因为 React 是一个 JavaScript 库，它能自然地适应其他部分，这些部分既可以是 JavaScript 库，也可以与 JavaScript 库配合使用。毕竟 JavaScript 是 Web 语言。
+这在 Web 开发环境下还好，因为 React 是一个 JavaScript 库，所以它能自然地适应 Web 环境下的其他部件。这些部件要么本身就是 JavaScript 库，要么能很容易地与 JavaScript 适配。毕竟 JavaScript 是 Web 上的标准语言。
 
-但是，对于移动端来说就比较困难了，有多种语言和技术。在 JavaScript 中包含一整套工具变得非常重要，这些工具可以像 React 那样使用。因此，React Native 诞生了。
+但是，对于移动端来说就比较困难了，因为那里需要支持多种语言和技术。这个时候，我们就需要包含一整套部件，而且这些部件的使用方法要跟 React 类似，至少是能用 JavaScript 来调用。这样，React Native 诞生了。
 
 相比于 Web 上的 React ，React Native 包括更多东西:
 
-  * 全新的 React 作为核心库 (我们的无斗篷超级英雄)
-  * IOS 和安卓的渲染器
+  * 全新的 React 作为核心库 (我们的超级英雄，只不过没穿斗篷)
+  * iOS 和安卓的渲染器
   * 将代码转换成可安装应用的工具
   * 原生 UI 组件 (状态栏、列表等等)和动画
   * UI 的样式和布局工具箱 (flexbox)
-  * 构建大多数应用的基础部分 (比如网络)
+  * 构建大多数应用的基础部分 (比如网络)
   * 提供原生功能的部分，比如粘贴板、加速计和存储
   * ...
 
@@ -108,21 +108,21 @@ React Native 的组成
 
 ### 原生 UI
 
-你是否曾好奇维护什么 React Native 的名字里有 Native 字样？这实际上是它的标志特征: React Native 的内置 UI 是由**原生 UI 组件**组成的，这些组件表现良好，外观/感觉一致，并非 WebView 中所包含的一些垃圾模拟。用 React Native 开发的应用与用像 Switf 和 Java 开发的原生应用放在一起，通常是难以区分的。
+为什么 React Native 的名字里有 Native 字样？这实际上是它的标志特征: React Native 的内置 UI 是由**原生 UI 组件**组成的，这些组件表现良好，外观/感觉一致，并非 WebView 中所包含的一些垃圾模拟。用 React Native 开发的应用与用像 Swift 和 Java 开发的原生应用放在一起，通常是难以区分的。
 
-你也知道，像滚动加速、动画、键盘行为和投影这些小东西，实际上在应用的用户体验中扮演了非常重要的角色。如果这些不能与你手机中其他应用保持统一的话，那么用户很快就会觉得不爽。
+你也知道，像滚动加速、动画、键盘行为和阴影这些小东西，实际上在应用的用户体验中扮演了非常重要的角色。如果这些不能与你手机中其他应用保持统一的话，那么用户很快就会觉得不爽。
 
-我原本目的就是想在这里解释清楚 “native” 的真正含义以及为何 React Native 的性能更好。但我发现在几次头脑风暴之后，我的一整页笔记很快就写满了。我们还是在后面的文章中再来单独讲它吧。
+我原本目的就是想在这里解释清楚 “native” 的真正含义以及为何 React Native 的性能更好。但我发现在几次头脑风暴之后，我的一整页笔记很快就写满了。还是在后面的文章中再来单独讲它吧。
 
 暂时，我只需要你记住原生 UI 是让 React Native 大放异彩的原因之一。
 
-所以看到这里，你应该了解 React Native 是一个完整的平台，它可以让你使用遵循 React 范式的 JavaScript 来开发真正的原生应用。
+看到这里，你应该了解 React Native 是一个完整的平台，它可以让你使用 JavaScript 来开发真正的原生应用，而且还是用 React 的路子来写（React 范式）。
 
 ![react-native-summary](../assets/What-Is-React-Native/react-native-summary.png)
 
 ## React Sketch.app、ReactVR、React XYZ…
 
- Airbnb 最近发布了一款十分有趣的工具，叫做 [React Sketch.app](https://airbnb.design/painting-with-code/) ，它可以将 React 代码转换成 Sketch 里图层。你能猜出它的工作原理吗？
+ Airbnb 最近发布了一款十分有趣的工具，叫做 [React Sketch.app](https://airbnb.design/painting-with-code/) ，它可以将 React 代码转换成 Sketch 里的图层。你能猜出它的工作原理吗？
 
 没错！从本质上来说，它就是使用了特殊渲染器的 React Native ，这个渲染器能与 Sketch 中的树人进行交流！
 
@@ -132,7 +132,7 @@ React Native 的组成
 
 与此同时，许多 React Native 的其他变种纷纷问世，用来支持在 [Windows](https://github.com/Microsoft/react-native-windows)、 [macOS](https://github.com/ptmt/react-native-macos)、[VR](https://github.com/facebook/react-360) 等平台上创建应用。
 
-这意味着只要你掌握了 React 的本质，就可以在大量的平台(数量持续增加)上使用 JavaScript 来创建应用，不同的平台，同样的思维模式。正如 React Native 的创建者们所倡导的: “**学习一次，随处编写**”。
+这意味着只要你掌握了 React ，就可以在大量的平台上使用 JavaScript 来创建应用，而且对新平台的支持还在不断涌现。不同的平台，同样的思维模式。正如 React Native 的创建者们所倡导的: “**学习一次，随处编写**”。
 
 ## 动手时刻！
 
@@ -140,7 +140,7 @@ React Native 的组成
 
 我也很兴奋！拿起你的手机跟我一起动起来！
 
-  1. 在手机上下载 Expo 应用。你可以点击这里下载: [IOS](https://itunes.apple.com/app/apple-store/id982107779?mt=8)、[安卓](https://play.google.com/store/apps/details?id=host.exp.exponent)，或者在 App Store 中搜索 “Expo” 。
+  1. 在手机上下载 Expo 应用。你可以点击这里下载: [iOS](https://itunes.apple.com/app/apple-store/id982107779?mt=8)、[安卓](https://play.google.com/store/apps/details?id=host.exp.exponent)，或者在 App Store 中搜索 “Expo” 。
   1. 在电脑上打开网页: [https://snack.expo.io/](https://snack.expo.io/) 。
   1. 在手机上启动 Expo 应用并点击 “Scan QR Code” 。
   1. 扫描电脑上显示的二维码。如果一些正常，你应该可以看见一条绿色的信息 “Device connected” 。
@@ -184,7 +184,7 @@ const HatSwitcher = ...
 
 ## 总结
 
-酷！到目前为止，我们已经介绍了不少内容。我们了解了一些 React 的历史以及 React Native 的组成。作为一个完整的平台，React Native 包含开发原生应用所需的一切，并且它使用的是 JavaScript 语言和 React 范式。React Native 现在支持多个平台，其中包括 IOS、Android、Windows、macOS、Sketch.app ，甚至还有 VR 。“学习一次，随处编写”！
+好了，到目前为止，我们已经介绍了不少内容。我们了解了一些 React 的历史以及 React Native 的组成。作为一个完整的平台，React Native 包含开发原生应用所需的一切，并且它使用的是 JavaScript 语言和 React 范式。React Native 现在支持多个平台，其中包括 iOS、Android、Windows、macOS、Sketch.app ，甚至还有 VR 。“学习一次，随处编写”！
 
 在下篇文章中，我们将介绍什么是真正的原生应用，以及为何 React Native 是开发原生应用的最佳方式之一。
 
