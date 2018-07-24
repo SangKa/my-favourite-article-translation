@@ -8,7 +8,7 @@
 
   * [图解 React](./What-Is-React.md)
   * 图解 React Native (本文)
-  * [组件、Props 和 State](https://learnreact.design/2017/08/16/components-props-and-state) (待翻译)
+  * [组件、Props 和 State](./Components-Props-State.md)
   * [Props 和 State 深入理解](https://learnreact.design/2018/01/15/props-and-state-re-explained) (待翻译)
   * [React Native vs. Cordova、PhoneGap、Ionic，等等](https://learnreact.design/2018/02/14/react-native-vs-cordova-phone-gap-ionic-etc) (待翻译)
 
