@@ -146,7 +146,7 @@ Roof:
   * 模板中使用的花括号告诉 React 我们要在此处使用占位符来替代纯文本。
   * `props` 可以看作是 `Roof` 组件所有属性值的集合。假设组件是这样使用的: `<Roof color="blue" material="wood" />` ，那么在 `Roof` 组件的定义中就可以使用 `props.color` 和 `props.material` 。
 
-## 使用 State 来开门
+## 使用 State 来开门
 
 ### 为组件添加 State
 
