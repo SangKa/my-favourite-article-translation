@@ -10,7 +10,7 @@
   * [图解 React Native](./What-Is-React-Native.md)
   * 组件、Prop 和 State (本文)
   * [深入理解 Prop 和 State](./Props-And-State-Re-explained.md)
-  * [React Native vs. Cordova、PhoneGap、Ionic，等等](https://learnreact.design/2018/02/14/react-native-vs-cordova-phone-gap-ionic-etc) (待翻译)
+  * [React Native vs. Cordova、PhoneGap、Ionic，等等](./React-Native-VS-Cordova-PhoneGap-Ionic-Etc.md)
 
 今天我们来学习 React 里最重要的三个概念: 组件、prop 和 state ，以及 prop 和 state 之间的区别。
 

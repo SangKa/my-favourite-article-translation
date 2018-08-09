@@ -10,7 +10,7 @@
   * [图解 React Native](./What-Is-React-Native.md)
   * [组件、Props 和 State](./Components-Props-State.md)
   * [深入理解 Props 和 State](./Props-And-State-Re-explained.md)
-  * [React Native vs. Cordova、PhoneGap、Ionic，等等](https://learnreact.design/2018/02/14/react-native-vs-cordova-phone-gap-ionic-etc) (待翻译)
+  * [React Native vs. Cordova、PhoneGap、Ionic，等等](./React-Native-VS-Cordova-PhoneGap-Ionic-Etc.md)
 
 React、ReactJS、React.js、React Native… 这些有些相似的名词你最近听过多少遍了？对于它们究竟是什么你是否感到困惑？
 

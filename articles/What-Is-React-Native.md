@@ -10,7 +10,7 @@
   * 图解 React Native (本文)
   * [组件、Props 和 State](./Components-Props-State.md)
   * [深入理解 Props 和 State](./Props-And-State-Re-explained.md)
-  * [React Native vs. Cordova、PhoneGap、Ionic，等等](https://learnreact.design/2018/02/14/react-native-vs-cordova-phone-gap-ionic-etc) (待翻译)
+  * [React Native vs. Cordova、PhoneGap、Ionic，等等](./React-Native-VS-Cordova-PhoneGap-Ionic-Etc.md)
 
 在[上一篇文章](./What-Is-React.md)中，我们介绍了什么是 React 以及是什么使得它如此特别。今天我们将介绍 React Native: 它是做什么的，它出自何处，它和 React 有哪些不同之处，以及它为何如此令人振奋。
 

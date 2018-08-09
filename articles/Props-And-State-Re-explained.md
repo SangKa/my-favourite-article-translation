@@ -10,7 +10,7 @@
   * [图解 React Native](./What-Is-React-Native.md)
   * [组件、Props 和 State](./Components-Props-State.md) 
   * 深入理解 Props 和 State (本文)
-  * [React Native vs. Cordova、PhoneGap、Ionic，等等](https://learnreact.design/2018/02/14/react-native-vs-cordova-phone-gap-ionic-etc) (待翻译)
+  * [React Native vs. Cordova、PhoneGap、Ionic，等等](./React-Native-VS-Cordova-PhoneGap-Ionic-Etc.md)
 
 在[上篇文章](./Components-Props-State.md)中，我们介绍了组件、props 和 state 。
 
